@@ -1,0 +1,17 @@
+uuid = 197a04c6-2336-11eb-a726-0242ac120002
+name = 
+tool_name = mariabackup
+tool_command = --backup --target-dir=inc --incremental-basedir=dbbackups --user=root --password=...
+tool_version = 10.4.12-MariaDB
+ibbackup_version = 10.4.12-MariaDB
+server_version = 10.4.12-MariaDB-1:10.4.12+maria~bionic-log
+start_time = 2020-11-10 09:21:20
+end_time = 2020-11-10 09:21:22
+lock_time = 0
+binlog_pos = filename 'mysql-bin.000010', position '4604', GTID of the last change '0-1-48'
+innodb_from_lsn = 82358
+innodb_to_lsn = 136274
+partial = N
+incremental = Y
+format = file
+compressed = N

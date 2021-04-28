@@ -1,0 +1,184 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #808280;
+}
+
+#menu{
+    height: 75px;
+    background-color: #fff;
+    width: 100%;
+}
+#logo{
+    width: 30px;
+    height: 30px;
+    background-image: url('assets/logo@2x.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    top: 22.5px;
+    left: 22.5px;
+    position: relative;
+}
+#submenu{
+    position: absolute;
+    right: 22.5px;
+    top: 26px;
+}
+.linkMenu{
+    color: #272F57;
+    font-family: 'gilroylight';
+    text-decoration: none;
+    font-size: 16px;
+    border: 0px solid transparent;
+    border-bottom: 4px solid transparent;
+    padding-bottom: 5px;
+    transition: all 0.75s ease;
+}
+.linkMenu:hover{
+    border-bottom: 4px solid #773F2F;
+}
+#activeLink{
+  border-bottom: 4px solid #773F2F;
+}
+.linkMenuNone{
+  color: #272F57;
+  font-family: 'gilroyextrabold';
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#descripcion{
+    height: 250px;
+    background-color: #EAEAEA;
+    width: 100%;
+}
+#logoMakkan{
+    width: 210px;
+    height: 116px;
+    background-image: url('assets/logoMakkan@2x.png');
+    background-size: 120px 72px;
+    background-repeat: no-repeat;
+    top: 22.5px;
+    left: calc(50% - 60px);
+    position: relative;
+}
+#tituloCotizador{
+    color: #272F57;
+    font-family: 'gilroyextrabold';
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 0px;
+}
+#descripcionCotizador{
+  color: #272F57;
+  font-family: 'gilroylight';
+  width: 350px;
+  margin-top: 15px;
+  font-size: 15px;
+  position: relative;
+  left: calc(50% - 175px);
+}
+#estadosCotizador{
+  color: #272F57;
+  font-family: 'gilroylight';
+  width: 350px;
+  margin-top: 25px;
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+  left: calc(50% - 175px);
+}
+.estado{
+  position: relative;
+  display: inline;
+  float: left;
+  width: 33.3%;
+  text-align: left;
+  color: #272F57;
+  font-size: 14px;
+  font-family: 'gilroylight';
+  box-sizing: border-box;
+}
+.iconEstado {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
+}
+#iconDisponible{
+  background-color: #578C9A;
+}
+#iconApartado{
+  background-color: #808280;
+}
+#iconVendido{
+  background-color: #763F31;
+}
+
+#mapa{
+    width: 100%;
+    background-color: white;
+    height: calc((100vw)*0.5625);
+    position: relative;
+    background-image: url(assets/mapa@2x.jpg);
+    background-size: auto 100%;
+    background-position: 50% 50%;
+}
+
+#footer{
+    width: 100%;
+    height: 150px;
+    background-color:#808280;
+    position: relative;
+    text-align: center;
+}
+#bottomCenter{
+  padding-top: 40px;
+  position: relative;
+  display: inline-block;
+  width: 800px;
+}
+.bottomSpace{
+  position: relative;
+  display: inline;
+  float: left;
+  width: 33.3%;
+  text-align: left;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'gilroylight';
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 720px) {
+
+    #footer{
+        height: auto;
+    }
+
+    #descripcionCotizador{
+        text-align: center;
+    }
+
+    #bottomCenter{
+      padding-top: 40px;
+      position: relative;
+      display: inline-block;
+      width: 80%;
+    }
+    .bottomSpace{
+      position: relative;
+      display: block;
+      width: 100%;
+      padding-bottom: 20px;
+      padding-right: 0;
+    }
+}

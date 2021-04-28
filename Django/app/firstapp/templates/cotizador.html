@@ -1,0 +1,31 @@
+{% include "header.html" %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'assets/fonts/stylesheet.css' %}">
+    <link rel="stylesheet" href="{% static 'styles-makkan.css' %}">
+</head>
+<body>
+{% include "menu.html" %}
+<div id="descripcion">
+      <div id="logoMakkan"></div>
+      <div id="tituloCotizador">COTIZADOR</div>
+      <div id="descripcionCotizador">Da click en el mapa y selecciona el lote a cotizar</div>
+      <div id="estadosCotizador">
+        <div class="estado">
+          <div id="iconDisponible" class="iconEstado"></div>
+          DISPONIBLE
+        </div>
+        <div class="estado">
+          <div id="iconApartado" class="iconEstado"></div>
+          APARTADO
+        </div>
+        <div class="estado">
+          <div id="iconVendido" class="iconEstado"></div>
+          VENDIDO
+        </div>
+
+      </div>
+    </div>
+    <div id="mapa">
+
+    </div>
+{% include "footer.html" %}

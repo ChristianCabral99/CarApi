@@ -1,0 +1,1080 @@
+2020-09-16  1:12:24 0 [Note] InnoDB: Using Linux native AIO
+2020-09-16  1:12:24 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-16  1:12:24 0 [Note] InnoDB: Uses event mutexes
+2020-09-16  1:12:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-16  1:12:24 0 [Note] InnoDB: Number of pools: 1
+2020-09-16  1:12:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-16  1:12:24 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-09-16  1:12:24 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-09-16  1:12:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-16  1:12:24 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-16  1:12:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-16  1:12:24 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-16  1:12:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-16  1:12:24 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-16  1:12:25 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-16  1:12:25 0 [Note] InnoDB: Waiting for purge to start
+2020-09-16  1:12:25 0 [Note] InnoDB: 10.4.12 started; log sequence number 60999; transaction id 21
+2020-09-16  1:12:25 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-09-16  1:12:25 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-16  1:12:25 0 [Note] InnoDB: Buffer pool(s) load completed at 200916  1:12:25
+2020-09-16  1:12:25 0 [Note] Server socket created on IP: '::'.
+2020-09-16  1:12:25 0 [Note] Reading of all Master_info entries succeeded
+2020-09-16  1:12:25 0 [Note] Added new Master_info '' to hash table
+2020-09-16  1:12:25 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-09-16  1:19:58 9 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2020-09-16  1:19:58 9 [Warning] Access denied for user 'myfirstuser'@'172.18.0.1' (using password: NO)
+2020-09-16  2:03:49 10 [Warning] Access denied for user 'myfirstuser'@'172.18.0.1' (using password: NO)
+2020-09-16  2:03:51 11 [Warning] Access denied for user 'myfirstuser'@'172.18.0.1' (using password: NO)
+2020-09-16  2:03:51 12 [Warning] Access denied for user 'myfirstuser'@'172.18.0.1' (using password: NO)
+2020-09-16  2:03:52 13 [Warning] Access denied for user 'myfirstuser'@'172.18.0.1' (using password: NO)
+2020-09-25  0:44:56 0 [Note] InnoDB: Using Linux native AIO
+2020-09-25  0:44:56 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-25  0:44:56 0 [Note] InnoDB: Uses event mutexes
+2020-09-25  0:44:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-25  0:44:56 0 [Note] InnoDB: Number of pools: 1
+2020-09-25  0:44:56 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-25  0:44:56 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-09-25  0:44:56 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-09-25  0:44:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-25  0:44:56 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-25  0:44:56 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=60999
+2020-09-25  0:44:56 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-25  0:44:56 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-25  0:44:56 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-25  0:44:56 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-25  0:44:57 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-25  0:44:57 0 [Note] InnoDB: 10.4.12 started; log sequence number 61008; transaction id 21
+2020-09-25  0:44:57 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-09-25  0:44:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-25  0:44:57 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-09-25  0:44:57 0 [Note] Starting crash recovery...
+2020-09-25  0:44:57 0 [Note] Crash recovery finished.
+2020-09-25  0:44:57 0 [Note] InnoDB: Buffer pool(s) load completed at 200925  0:44:57
+2020-09-25  0:44:57 0 [Note] Server socket created on IP: '::'.
+2020-09-25  0:44:58 0 [Note] Reading of all Master_info entries succeeded
+2020-09-25  0:44:58 0 [Note] Added new Master_info '' to hash table
+2020-09-25  0:44:58 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-09-25  0:47:40 9 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2020-09-25  0:47:40 9 [Warning] Access denied for user 'myfirstuser'@'172.18.0.1' (using password: NO)
+2020-09-25  0:47:46 10 [Warning] Access denied for user 'myfirstuser'@'172.18.0.1' (using password: YES)
+2020-09-25  0:48:59 11 [Warning] Access denied for user 'myfirstuser'@'172.18.0.1' (using password: NO)
+2020-09-25  0:58:13 14 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-09-25  0:58:27 15 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-09-25  0:58:33 16 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-09-25  0:58:40 17 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-09-25  0:59:20 18 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-09-25  1:00:45 19 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-09-25  1:00:52 20 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-09-25  1:07:25 21 [Warning] Access denied for user 'myfirstuser'@'localhost' (using password: YES)
+2020-09-25  1:22:22 22 [Warning] Access denied for user 'myfirstuser'@'localhost' (using password: YES)
+2020-09-25  1:23:29 23 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-09-25  1:25:04 24 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2020-09-25  1:26:05 25 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2020-09-25  1:59:23 30 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2020-09-29 22:04:34 0 [Note] InnoDB: Using Linux native AIO
+2020-09-29 22:04:34 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-29 22:04:34 0 [Note] InnoDB: Uses event mutexes
+2020-09-29 22:04:34 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-29 22:04:34 0 [Note] InnoDB: Number of pools: 1
+2020-09-29 22:04:34 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-29 22:04:34 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-09-29 22:04:34 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-09-29 22:04:34 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-29 22:04:34 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-29 22:04:34 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=68052
+2020-09-29 22:04:34 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000002', position 1280
+2020-09-29 22:04:34 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-29 22:04:34 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-29 22:04:34 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-29 22:04:34 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-29 22:04:34 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-29 22:04:34 0 [Note] InnoDB: Waiting for purge to start
+2020-09-29 22:04:34 0 [Note] InnoDB: 10.4.12 started; log sequence number 68061; transaction id 39
+2020-09-29 22:04:34 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-09-29 22:04:34 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-29 22:04:34 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-09-29 22:04:34 0 [Note] Starting crash recovery...
+2020-09-29 22:04:34 0 [Note] Crash recovery finished.
+2020-09-29 22:04:34 0 [Note] InnoDB: Buffer pool(s) load completed at 200929 22:04:34
+2020-09-29 22:04:34 0 [Note] Server socket created on IP: '::'.
+2020-09-29 22:04:34 0 [Note] Reading of all Master_info entries succeeded
+2020-09-29 22:04:34 0 [Note] Added new Master_info '' to hash table
+2020-09-29 22:04:34 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-10-01 15:29:52 0 [Note] InnoDB: Using Linux native AIO
+2020-10-01 15:29:52 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-10-01 15:29:52 0 [Note] InnoDB: Uses event mutexes
+2020-10-01 15:29:52 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-10-01 15:29:52 0 [Note] InnoDB: Number of pools: 1
+2020-10-01 15:29:52 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-10-01 15:29:52 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-10-01 15:29:52 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-10-01 15:29:52 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-10-01 15:29:52 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-10-01 15:29:52 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=68070
+2020-10-01 15:29:52 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000002', position 1280
+2020-10-01 15:29:52 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-10-01 15:29:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-10-01 15:29:52 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-10-01 15:29:52 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-10-01 15:29:52 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-10-01 15:29:52 0 [Note] InnoDB: Waiting for purge to start
+2020-10-01 15:29:53 0 [Note] InnoDB: 10.4.12 started; log sequence number 68079; transaction id 39
+2020-10-01 15:29:53 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-10-01 15:29:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-10-01 15:29:53 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-10-01 15:29:53 0 [Note] Starting crash recovery...
+2020-10-01 15:29:53 0 [Note] InnoDB: Buffer pool(s) load completed at 201001 15:29:53
+2020-10-01 15:29:53 0 [Note] Crash recovery finished.
+2020-10-01 15:29:53 0 [Note] Server socket created on IP: '::'.
+2020-10-01 15:29:53 0 [Note] Reading of all Master_info entries succeeded
+2020-10-01 15:29:53 0 [Note] Added new Master_info '' to hash table
+2020-10-01 15:29:53 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-10-09  0:58:16 0 [Note] InnoDB: Using Linux native AIO
+2020-10-09  0:58:16 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-10-09  0:58:16 0 [Note] InnoDB: Uses event mutexes
+2020-10-09  0:58:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-10-09  0:58:16 0 [Note] InnoDB: Number of pools: 1
+2020-10-09  0:58:16 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-10-09  0:58:16 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-10-09  0:58:16 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-10-09  0:58:16 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-10-09  0:58:16 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-10-09  0:58:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=68113
+2020-10-09  0:58:16 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000002', position 1280
+2020-10-09  0:58:16 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-10-09  0:58:16 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-10-09  0:58:16 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-10-09  0:58:16 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-10-09  0:58:16 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-10-09  0:58:16 0 [Note] InnoDB: Waiting for purge to start
+2020-10-09  0:58:16 0 [Note] InnoDB: 10.4.12 started; log sequence number 68122; transaction id 39
+2020-10-09  0:58:16 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-10-09  0:58:16 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-10-09  0:58:16 0 [Note] InnoDB: Buffer pool(s) load completed at 201009  0:58:16
+2020-10-09  0:58:16 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-10-09  0:58:16 0 [Note] Starting crash recovery...
+2020-10-09  0:58:16 0 [Note] Crash recovery finished.
+2020-10-09  0:58:16 0 [Note] Server socket created on IP: '0.0.0.0'.
+2020-10-09  0:58:16 0 [Note] Reading of all Master_info entries succeeded
+2020-10-09  0:58:16 0 [Note] Added new Master_info '' to hash table
+2020-10-09  0:58:16 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-10-09  0:58:46 9 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2020-10-09  0:58:46 9 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2020-10-16  1:18:16 0 [Note] InnoDB: Using Linux native AIO
+2020-10-16  1:18:16 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-10-16  1:18:16 0 [Note] InnoDB: Uses event mutexes
+2020-10-16  1:18:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-10-16  1:18:16 0 [Note] InnoDB: Number of pools: 1
+2020-10-16  1:18:16 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-10-16  1:18:16 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-10-16  1:18:16 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-10-16  1:18:16 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-10-16  1:18:16 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-10-16  1:18:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=82322
+2020-10-16  1:18:17 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000005', position 2586
+2020-10-16  1:18:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-10-16  1:18:17 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-10-16  1:18:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-10-16  1:18:17 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-10-16  1:18:17 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-10-16  1:18:17 0 [Note] InnoDB: Waiting for purge to start
+2020-10-16  1:18:17 0 [Note] InnoDB: 10.4.12 started; log sequence number 82331; transaction id 76
+2020-10-16  1:18:17 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-10-16  1:18:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-10-16  1:18:17 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-10-16  1:18:17 0 [Note] Starting crash recovery...
+2020-10-16  1:18:17 0 [Note] Crash recovery finished.
+2020-10-16  1:18:17 0 [Note] InnoDB: Buffer pool(s) load completed at 201016  1:18:17
+2020-10-16  1:18:17 0 [Note] Server socket created on IP: '0.0.0.0'.
+2020-10-16  1:18:17 0 [Note] Reading of all Master_info entries succeeded
+2020-10-16  1:18:17 0 [Note] Added new Master_info '' to hash table
+2020-10-16  1:18:17 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-10-21  1:05:37 0 [Note] InnoDB: Using Linux native AIO
+2020-10-21  1:05:37 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-10-21  1:05:37 0 [Note] InnoDB: Uses event mutexes
+2020-10-21  1:05:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-10-21  1:05:37 0 [Note] InnoDB: Number of pools: 1
+2020-10-21  1:05:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-10-21  1:05:37 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-10-21  1:05:37 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-10-21  1:05:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-10-21  1:05:37 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-10-21  1:05:37 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=82340
+2020-10-21  1:05:38 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000005', position 2586
+2020-10-21  1:05:38 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-10-21  1:05:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-10-21  1:05:38 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-10-21  1:05:38 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-10-21  1:05:38 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-10-21  1:05:38 0 [Note] InnoDB: Waiting for purge to start
+2020-10-21  1:05:38 0 [Note] InnoDB: 10.4.12 started; log sequence number 82349; transaction id 76
+2020-10-21  1:05:38 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-10-21  1:05:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-10-21  1:05:38 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-10-21  1:05:38 0 [Note] Starting crash recovery...
+2020-10-21  1:05:38 0 [Note] Crash recovery finished.
+2020-10-21  1:05:38 0 [Note] InnoDB: Buffer pool(s) load completed at 201021  1:05:38
+2020-10-21  1:05:38 0 [Note] Server socket created on IP: '0.0.0.0'.
+2020-10-21  1:05:38 0 [Note] Reading of all Master_info entries succeeded
+2020-10-21  1:05:38 0 [Note] Added new Master_info '' to hash table
+2020-10-21  1:05:38 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-10-30  1:52:04 0 [Note] InnoDB: Using Linux native AIO
+2020-10-30  1:52:04 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-10-30  1:52:04 0 [Note] InnoDB: Uses event mutexes
+2020-10-30  1:52:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-10-30  1:52:04 0 [Note] InnoDB: Number of pools: 1
+2020-10-30  1:52:04 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-10-30  1:52:04 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-10-30  1:52:04 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-10-30  1:52:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-10-30  1:52:04 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-10-30  1:52:04 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=82358
+2020-10-30  1:52:05 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000005', position 2586
+2020-10-30  1:52:05 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-10-30  1:52:05 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-10-30  1:52:05 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-10-30  1:52:05 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-10-30  1:52:05 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-10-30  1:52:05 0 [Note] InnoDB: Waiting for purge to start
+2020-10-30  1:52:05 0 [Note] InnoDB: 10.4.12 started; log sequence number 82367; transaction id 76
+2020-10-30  1:52:05 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-10-30  1:52:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-10-30  1:52:05 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-10-30  1:52:05 0 [Note] Starting crash recovery...
+2020-10-30  1:52:05 0 [Note] InnoDB: Buffer pool(s) load completed at 201030  1:52:05
+2020-10-30  1:52:05 0 [Note] Crash recovery finished.
+2020-10-30  1:52:05 0 [Note] Server socket created on IP: '0.0.0.0'.
+2020-10-30  1:52:05 0 [Note] Reading of all Master_info entries succeeded
+2020-10-30  1:52:05 0 [Note] Added new Master_info '' to hash table
+2020-10-30  1:52:05 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-10-30  1:52:31 9 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2020-10-30  1:52:31 9 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2020-11-04 18:26:19 0 [Note] InnoDB: Using Linux native AIO
+2020-11-04 18:26:19 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-11-04 18:26:19 0 [Note] InnoDB: Uses event mutexes
+2020-11-04 18:26:19 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-11-04 18:26:19 0 [Note] InnoDB: Number of pools: 1
+2020-11-04 18:26:19 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-11-04 18:26:19 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-11-04 18:26:19 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-11-04 18:26:19 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-11-04 18:26:19 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-11-04 18:26:19 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=98092
+2020-11-04 18:26:19 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000008', position 4162
+2020-11-04 18:26:20 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-11-04 18:26:20 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-11-04 18:26:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-11-04 18:26:20 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-11-04 18:26:20 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-11-04 18:26:20 0 [Note] InnoDB: 10.4.12 started; log sequence number 98101; transaction id 118
+2020-11-04 18:26:20 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-11-04 18:26:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-11-04 18:26:20 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-11-04 18:26:20 0 [Note] Starting crash recovery...
+2020-11-04 18:26:20 0 [Note] Crash recovery finished.
+2020-11-04 18:26:20 0 [Note] InnoDB: Buffer pool(s) load completed at 201104 18:26:20
+2020-11-04 18:26:20 0 [Note] Server socket created on IP: '0.0.0.0'.
+2020-11-04 18:26:20 0 [Note] Reading of all Master_info entries succeeded
+2020-11-04 18:26:20 0 [Note] Added new Master_info '' to hash table
+2020-11-04 18:26:20 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-11-04 18:26:52 9 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2020-11-04 18:26:52 9 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2020-11-05  8:06:51 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2020-11-10  8:20:17 0 [Note] InnoDB: Using Linux native AIO
+2020-11-10  8:20:17 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-11-10  8:20:17 0 [Note] InnoDB: Uses event mutexes
+2020-11-10  8:20:17 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-11-10  8:20:17 0 [Note] InnoDB: Number of pools: 1
+2020-11-10  8:20:17 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-11-10  8:20:17 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-11-10  8:20:17 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-11-10  8:20:17 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-11-10  8:20:17 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-11-10  8:20:17 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=111170
+2020-11-10  8:20:17 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000009', position 4342
+2020-11-10  8:20:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-11-10  8:20:17 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-11-10  8:20:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-11-10  8:20:17 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-11-10  8:20:17 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-11-10  8:20:17 0 [Note] InnoDB: Waiting for purge to start
+2020-11-10  8:20:17 0 [Note] InnoDB: 10.4.12 started; log sequence number 111179; transaction id 156
+2020-11-10  8:20:17 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-11-10  8:20:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-11-10  8:20:17 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-11-10  8:20:17 0 [Note] Starting crash recovery...
+2020-11-10  8:20:17 0 [Note] Crash recovery finished.
+2020-11-10  8:20:17 0 [Note] InnoDB: Buffer pool(s) load completed at 201110  8:20:17
+2020-11-10  8:20:17 0 [Note] Server socket created on IP: '0.0.0.0'.
+2020-11-10  8:20:17 0 [Note] Reading of all Master_info entries succeeded
+2020-11-10  8:20:17 0 [Note] Added new Master_info '' to hash table
+2020-11-10  8:20:17 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-11-10  8:29:25 9 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2020-11-10  8:29:25 9 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2020-12-18 18:28:15 0 [Note] InnoDB: Using Linux native AIO
+2020-12-18 18:28:15 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-12-18 18:28:15 0 [Note] InnoDB: Uses event mutexes
+2020-12-18 18:28:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-12-18 18:28:15 0 [Note] InnoDB: Number of pools: 1
+2020-12-18 18:28:15 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-12-18 18:28:15 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2020-12-18 18:28:15 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2020-12-18 18:28:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-12-18 18:28:15 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-12-18 18:28:15 0 [Note] InnoDB: Setting log file ./ib_logfile101 size to 50331648 bytes
+2020-12-18 18:28:15 0 [Note] InnoDB: Setting log file ./ib_logfile1 size to 50331648 bytes
+2020-12-18 18:28:15 0 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2020-12-18 18:28:15 0 [Note] InnoDB: New log files created, LSN=136283
+2020-12-18 18:28:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-12-18 18:28:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-12-18 18:28:15 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-12-18 18:28:15 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-12-18 18:28:15 0 [Note] InnoDB: Waiting for purge to start
+2020-12-18 18:28:15 0 [Note] InnoDB: 10.4.12 started; log sequence number 136716; transaction id 212
+2020-12-18 18:28:15 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-12-18 18:28:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-12-18 18:28:16 0 [Note] InnoDB: Buffer pool(s) load completed at 201218 18:28:16
+2020-12-18 18:28:16 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2020-12-18 18:28:16 0 [Note] Starting crash recovery...
+2020-12-18 18:28:16 0 [Note] Crash recovery finished.
+2020-12-18 18:28:16 0 [Note] Server socket created on IP: '0.0.0.0'.
+2020-12-18 18:28:16 0 [Note] Reading of all Master_info entries succeeded
+2020-12-18 18:28:16 0 [Note] Added new Master_info '' to hash table
+2020-12-18 18:28:16 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2020-12-18 18:28:39 9 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2020-12-18 18:28:39 9 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2020-12-18 21:09:23 12 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2020-12-18 21:10:00 13 [Warning] Access denied for user '1'@'172.18.0.1' (using password: YES)
+2020-12-18 21:13:56 10 [Warning] Aborted connection 10 to db: 'uno' user:
+'root' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-20  1:38:15 0 [Note] InnoDB: Using Linux native AIO
+2021-03-20  1:38:15 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-03-20  1:38:15 0 [Note] InnoDB: Uses event mutexes
+2021-03-20  1:38:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-20  1:38:15 0 [Note] InnoDB: Number of pools: 1
+2021-03-20  1:38:15 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-03-20  1:38:15 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-20  1:38:15 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-03-20  1:38:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-20  1:38:15 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-20  1:38:15 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=139277
+2021-03-20  1:38:15 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000011', position 956
+2021-03-20  1:38:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-03-20  1:38:15 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-03-20  1:38:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-20  1:38:15 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-20  1:38:15 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-20  1:38:15 0 [Note] InnoDB: Waiting for purge to start
+2021-03-20  1:38:15 0 [Note] InnoDB: 10.4.12 started; log sequence number 139286; transaction id 230
+2021-03-20  1:38:15 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-20  1:38:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-20  1:38:15 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2021-03-20  1:38:15 0 [Note] Starting crash recovery...
+2021-03-20  1:38:15 0 [Note] Crash recovery finished.
+2021-03-20  1:38:15 0 [Note] InnoDB: Buffer pool(s) load completed at 210320  1:38:15
+2021-03-20  1:38:15 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-03-20  1:38:15 0 [Note] Reading of all Master_info entries succeeded
+2021-03-20  1:38:15 0 [Note] Added new Master_info '' to hash table
+2021-03-20  1:38:15 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-03-20  1:38:45 9 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-20  1:38:45 9 [Warning] Access denied for user 'mydbuser'@'172.18.0.1' (using password: YES)
+2021-03-20  1:39:59 10 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-20  1:40:58 11 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-20  1:43:44 12 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-20  1:46:32 10 [Warning] Aborted connection 10 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-20  1:46:42 13 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-20  1:46:42 13 [Warning] Aborted connection 13 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-03-20  1:46:46 14 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2021-03-20  1:46:52 14 [Warning] Aborted connection 14 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-20  1:47:03 15 [Warning] Aborted connection 15 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-20  1:47:05 16 [Warning] Aborted connection 16 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-20  1:57:06 17 [Warning] Aborted connection 17 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got timeout reading communication packets)
+2021-03-24 23:34:42 0 [Note] InnoDB: Using Linux native AIO
+2021-03-24 23:34:42 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-03-24 23:34:42 0 [Note] InnoDB: Uses event mutexes
+2021-03-24 23:34:42 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-24 23:34:42 0 [Note] InnoDB: Number of pools: 1
+2021-03-24 23:34:42 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-03-24 23:34:42 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-24 23:34:42 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-03-24 23:34:42 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-24 23:34:42 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-24 23:34:42 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=504774
+2021-03-24 23:34:42 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000013', position 23910
+2021-03-24 23:34:43 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-03-24 23:34:43 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-03-24 23:34:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-24 23:34:43 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-24 23:34:43 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-24 23:34:43 0 [Note] InnoDB: Waiting for purge to start
+2021-03-24 23:34:43 0 [Note] InnoDB: 10.4.12 started; log sequence number 504783; transaction id 772
+2021-03-24 23:34:43 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-24 23:34:43 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-24 23:34:43 0 [Note] InnoDB: Buffer pool(s) load completed at 210324 23:34:43
+2021-03-24 23:34:43 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2021-03-24 23:34:43 0 [Note] Starting crash recovery...
+2021-03-24 23:34:43 0 [Note] Crash recovery finished.
+2021-03-24 23:34:43 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-03-24 23:34:43 0 [Note] Reading of all Master_info entries succeeded
+2021-03-24 23:34:43 0 [Note] Added new Master_info '' to hash table
+2021-03-24 23:34:43 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-03-24 23:37:39 9 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-24 23:58:20 10 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-24 23:58:29 10 [Warning] Aborted connection 10 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-24 23:59:23 11 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-25  0:04:33 11 [Warning] Aborted connection 11 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:12:01 12 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-25  0:12:45 12 [Warning] Aborted connection 12 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:12:55 13 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-03-25  0:12:55 13 [Warning] Aborted connection 13 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-03-25  0:12:58 14 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2021-03-25  0:13:24 14 [Warning] Aborted connection 14 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:13:58 15 [Warning] Aborted connection 15 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:15:14 18 [Warning] Aborted connection 18 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:15:47 21 [Warning] Aborted connection 21 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:16:32 22 [Warning] Aborted connection 22 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:21:30 23 [Warning] Aborted connection 23 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:21:54 26 [Warning] Aborted connection 26 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:26:52 27 [Warning] Aborted connection 27 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:27:11 28 [Warning] Aborted connection 28 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:27:46 29 [Warning] Aborted connection 29 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:29:23 30 [Warning] Aborted connection 30 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:30:46 31 [Warning] Aborted connection 31 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:31:17 32 [Warning] Aborted connection 32 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:37:34 33 [Warning] Aborted connection 33 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:42:02 34 [Warning] Aborted connection 34 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:44:36 38 [Warning] Aborted connection 38 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:45:23 45 [Warning] Aborted connection 45 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:47:01 48 [Warning] Aborted connection 48 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25  0:54:04 50 [Warning] Aborted connection 50 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:19:59 54 [Warning] Aborted connection 54 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:25:06 55 [Warning] Aborted connection 55 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:28:45 56 [Warning] Aborted connection 56 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:32:26 57 [Warning] Aborted connection 57 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:33:11 58 [Warning] Aborted connection 58 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:34:51 59 [Warning] Aborted connection 59 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:36:07 60 [Warning] Aborted connection 60 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:36:55 61 [Warning] Aborted connection 61 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:39:23 62 [Warning] Aborted connection 62 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:39:46 64 [Warning] Aborted connection 64 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:40:18 65 [Warning] Aborted connection 65 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:40:27 67 [Warning] Aborted connection 67 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:41:31 68 [Warning] Aborted connection 68 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:44:35 72 [Warning] Aborted connection 72 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:44:50 76 [Warning] Aborted connection 76 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:49:22 78 [Warning] Aborted connection 78 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:49:50 80 [Warning] Aborted connection 80 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:52:23 82 [Warning] Aborted connection 82 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 21:55:11 83 [Warning] Aborted connection 83 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 22:01:42 85 [Warning] Aborted connection 85 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 22:06:00 86 [Warning] Aborted connection 86 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 22:09:51 87 [Warning] Aborted connection 87 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 22:12:22 91 [Warning] Aborted connection 91 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 22:13:22 92 [Warning] Aborted connection 92 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 22:13:43 93 [Warning] Aborted connection 93 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 22:15:14 94 [Warning] Aborted connection 94 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 22:20:42 97 [Warning] Aborted connection 97 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 23:16:38 98 [Warning] Aborted connection 98 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 23:17:59 99 [Warning] Aborted connection 99 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 23:18:06 100 [Warning] Aborted connection 100 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 23:23:12 101 [Warning] Aborted connection 101 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-03-25 23:53:14 102 [Warning] Aborted connection 102 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got timeout reading communication packets)
+2021-04-11  2:02:49 0 [Note] InnoDB: Using Linux native AIO
+2021-04-11  2:02:49 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-11  2:02:49 0 [Note] InnoDB: Uses event mutexes
+2021-04-11  2:02:49 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-11  2:02:49 0 [Note] InnoDB: Number of pools: 1
+2021-04-11  2:02:49 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-11  2:02:49 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-11  2:02:49 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-11  2:02:49 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-11  2:02:49 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-11  2:02:49 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=515475
+2021-04-11  2:02:49 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000014', position 3338
+2021-04-11  2:02:49 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-11  2:02:49 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-11  2:02:49 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-11  2:02:49 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-11  2:02:49 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-11  2:02:49 0 [Note] InnoDB: 10.4.12 started; log sequence number 515484; transaction id 820
+2021-04-11  2:02:49 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-11  2:02:49 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-11  2:02:49 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2021-04-11  2:02:49 0 [Note] Starting crash recovery...
+2021-04-11  2:02:49 0 [Note] Crash recovery finished.
+2021-04-11  2:02:49 0 [Note] InnoDB: Buffer pool(s) load completed at 210411  2:02:49
+2021-04-11  2:02:49 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-11  2:02:49 0 [Note] Reading of all Master_info entries succeeded
+2021-04-11  2:02:49 0 [Note] Added new Master_info '' to hash table
+2021-04-11  2:02:49 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-11  2:04:05 9 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-11  2:07:56 10 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-11  2:08:09 11 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2021-04-11  2:13:26 10 [Warning] Aborted connection 10 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:00:03 14 [Warning] Aborted connection 14 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:00:47 18 [Warning] Aborted connection 18 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:02:50 19 [Warning] Aborted connection 19 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:04:07 20 [Warning] Aborted connection 20 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:05:30 21 [Warning] Aborted connection 21 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:05:58 22 [Warning] Aborted connection 22 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:06:10 23 [Warning] Aborted connection 23 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:06:54 24 [Warning] Aborted connection 24 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:08:04 25 [Warning] Aborted connection 25 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:08:44 26 [Warning] Aborted connection 26 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:08:46 27 [Warning] Aborted connection 27 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:09:07 28 [Warning] Aborted connection 28 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:09:20 29 [Warning] Aborted connection 29 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:09:30 30 [Warning] Aborted connection 30 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:10:45 31 [Warning] Aborted connection 31 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:16:47 34 [Warning] Aborted connection 34 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:25:47 38 [Warning] Aborted connection 38 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:29:23 40 [Warning] Aborted connection 40 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:29:29 41 [Warning] Aborted connection 41 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:31:24 42 [Warning] Aborted connection 42 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:32:16 43 [Warning] Aborted connection 43 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:34:13 45 [Warning] Aborted connection 45 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:34:25 47 [Warning] Aborted connection 47 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:34:54 48 [Warning] Aborted connection 48 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:35:07 49 [Warning] Aborted connection 49 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:37:38 50 [Warning] Aborted connection 50 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:37:51 51 [Warning] Aborted connection 51 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:39:30 52 [Warning] Aborted connection 52 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:42:09 53 [Warning] Aborted connection 53 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:42:25 54 [Warning] Aborted connection 54 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:44:55 55 [Warning] Aborted connection 55 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:45:16 60 [Warning] Aborted connection 60 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:45:45 66 [Warning] Aborted connection 66 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:49:08 68 [Warning] Aborted connection 68 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:50:46 69 [Warning] Aborted connection 69 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:51:59 70 [Warning] Aborted connection 70 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:57:32 71 [Warning] Aborted connection 71 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:58:07 72 [Warning] Aborted connection 72 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11  9:58:23 73 [Warning] Aborted connection 73 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:00:34 74 [Warning] Aborted connection 74 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:01:16 78 [Warning] Aborted connection 78 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:03:25 81 [Warning] Aborted connection 81 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:04:07 84 [Warning] Aborted connection 84 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:06:22 86 [Warning] Aborted connection 86 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:10:58 87 [Warning] Aborted connection 87 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:12:24 91 [Warning] Aborted connection 91 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:14:20 94 [Warning] Aborted connection 94 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:19:48 95 [Warning] Aborted connection 95 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:27:42 99 [Warning] Aborted connection 99 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:34:31 100 [Warning] Aborted connection 100 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:34:41 101 [Warning] Aborted connection 101 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:34:53 102 [Warning] Aborted connection 102 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:35:55 103 [Warning] Aborted connection 103 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:36:24 104 [Warning] Aborted connection 104 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:38:15 107 [Warning] Aborted connection 107 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:38:49 110 [Warning] Aborted connection 110 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:40:15 112 [Warning] Aborted connection 112 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:40:34 118 [Warning] Aborted connection 118 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:41:31 119 [Warning] Aborted connection 119 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 10:51:32 122 [Warning] Aborted connection 122 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got timeout reading communication packets)
+2021-04-11 23:37:44 0 [Note] InnoDB: Using Linux native AIO
+2021-04-11 23:37:44 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-11 23:37:44 0 [Note] InnoDB: Uses event mutexes
+2021-04-11 23:37:44 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-11 23:37:44 0 [Note] InnoDB: Number of pools: 1
+2021-04-11 23:37:44 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-11 23:37:44 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-11 23:37:44 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-11 23:37:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-11 23:37:44 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-11 23:37:44 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=541472
+2021-04-11 23:37:45 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000015', position 9097
+2021-04-11 23:37:45 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-11 23:37:45 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-11 23:37:45 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-11 23:37:45 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-11 23:37:45 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-11 23:37:45 0 [Note] InnoDB: Waiting for purge to start
+2021-04-11 23:37:45 0 [Note] InnoDB: 10.4.12 started; log sequence number 541481; transaction id 907
+2021-04-11 23:37:45 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-11 23:37:45 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-11 23:37:45 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2021-04-11 23:37:45 0 [Note] InnoDB: Buffer pool(s) load completed at 210411 23:37:45
+2021-04-11 23:37:45 0 [Note] Starting crash recovery...
+2021-04-11 23:37:45 0 [Note] Crash recovery finished.
+2021-04-11 23:37:45 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-11 23:37:45 0 [Note] Reading of all Master_info entries succeeded
+2021-04-11 23:37:45 0 [Note] Added new Master_info '' to hash table
+2021-04-11 23:37:45 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-11 23:38:38 9 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-11 23:40:00 10 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-11 23:40:03 11 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2021-04-11 23:46:05 9 [Warning] Aborted connection 9 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 23:46:10 14 [Warning] Aborted connection 14 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 23:46:23 15 [Warning] Aborted connection 15 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 23:47:26 17 [Warning] Aborted connection 17 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 23:47:37 18 [Warning] Aborted connection 18 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 23:47:55 19 [Warning] Aborted connection 19 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-11 23:55:30 20 [Warning] Aborted connection 20 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:01:55 30 [Warning] Aborted connection 30 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:03:16 31 [Warning] Aborted connection 31 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:03:47 32 [Warning] Aborted connection 32 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:04:03 33 [Warning] Aborted connection 33 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:04:11 34 [Warning] Aborted connection 34 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:09:30 35 [Warning] Aborted connection 35 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:14:53 36 [Warning] Aborted connection 36 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:15:10 37 [Warning] Aborted connection 37 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:15:33 38 [Warning] Aborted connection 38 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:15:51 39 [Warning] Aborted connection 39 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:16:37 40 [Warning] Aborted connection 40 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:16:51 41 [Warning] Aborted connection 41 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:18:16 42 [Warning] Aborted connection 42 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:18:58 43 [Warning] Aborted connection 43 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:22:05 44 [Warning] Aborted connection 44 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:23:11 45 [Warning] Aborted connection 45 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:23:31 46 [Warning] Aborted connection 46 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:23:45 47 [Warning] Aborted connection 47 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:24:13 48 [Warning] Aborted connection 48 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:24:35 49 [Warning] Aborted connection 49 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:24:57 50 [Warning] Aborted connection 50 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:25:35 51 [Warning] Aborted connection 51 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  0:31:00 52 [Warning] Aborted connection 52 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  1:09:27 53 [Warning] Aborted connection 53 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  1:09:39 54 [Warning] Aborted connection 54 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  1:10:10 55 [Warning] Aborted connection 55 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  1:10:24 56 [Warning] Aborted connection 56 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  1:10:41 57 [Warning] Aborted connection 57 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  1:11:02 58 [Warning] Aborted connection 58 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  1:21:01 59 [Warning] Aborted connection 59 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  3:39:33 67 [Warning] Aborted connection 67 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  8:45:02 70 [Warning] Aborted connection 70 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:18:02 71 [Warning] Aborted connection 71 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:18:50 72 [Warning] Aborted connection 72 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:18:55 75 [Warning] Aborted connection 75 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:19:13 76 [Warning] Aborted connection 76 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:20:55 77 [Warning] Aborted connection 77 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:21:05 80 [Warning] Aborted connection 80 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:21:20 82 [Warning] Aborted connection 82 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:21:29 84 [Warning] Aborted connection 84 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:21:49 86 [Warning] Aborted connection 86 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:24:12 90 [Warning] Aborted connection 90 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:25:41 93 [Warning] Aborted connection 93 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:30:44 96 [Warning] Aborted connection 96 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12  9:52:44 98 [Warning] Aborted connection 98 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-12 10:05:03 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-04-12 10:05:03 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-04-12 10:05:03 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-12 10:05:03 0 [Note] InnoDB: Starting shutdown...
+2021-04-12 10:05:03 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-04-12 10:05:03 0 [Note] InnoDB: Buffer pool(s) dump completed at 210412 10:05:03
+2021-04-12 10:05:04 0 [Note] InnoDB: Shutdown completed; log sequence number 760883; transaction id 1125
+2021-04-12 10:05:04 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-12 10:05:04 0 [Note] mysqld: Shutdown complete
+
+2021-04-13 20:19:47 0 [Note] InnoDB: Using Linux native AIO
+2021-04-13 20:19:47 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-13 20:19:47 0 [Note] InnoDB: Uses event mutexes
+2021-04-13 20:19:47 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-13 20:19:47 0 [Note] InnoDB: Number of pools: 1
+2021-04-13 20:19:47 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-13 20:19:47 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-13 20:19:47 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-13 20:19:47 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-13 20:19:47 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-13 20:19:48 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-13 20:19:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-13 20:19:48 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-13 20:19:48 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-13 20:19:48 0 [Note] InnoDB: Waiting for purge to start
+2021-04-13 20:19:48 0 [Note] InnoDB: 10.4.12 started; log sequence number 760883; transaction id 1127
+2021-04-13 20:19:48 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-13 20:19:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-13 20:19:48 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-13 20:19:48 0 [Note] InnoDB: Buffer pool(s) load completed at 210413 20:19:48
+2021-04-13 20:19:48 0 [Note] Reading of all Master_info entries succeeded
+2021-04-13 20:19:48 0 [Note] Added new Master_info '' to hash table
+2021-04-13 20:19:48 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-13 20:21:12 9 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-13 20:26:37 9 [Warning] Aborted connection 9 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:38:49 10 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-13 20:40:23 11 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-13 20:43:10 12 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-13 20:43:10 12 [Warning] Aborted connection 12 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-04-13 20:43:14 13 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-13 20:45:51 13 [Warning] Aborted connection 13 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:46:01 14 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-13 20:46:09 14 [Warning] Aborted connection 14 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:46:10 15 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2021-04-13 20:47:48 15 [Warning] Aborted connection 15 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:49:20 18 [Warning] Aborted connection 18 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:49:41 21 [Warning] Aborted connection 21 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:50:05 24 [Warning] Aborted connection 24 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:51:06 26 [Warning] Aborted connection 26 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:51:45 28 [Warning] Aborted connection 28 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:52:33 31 [Warning] Aborted connection 31 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:52:47 33 [Warning] Aborted connection 33 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:53:14 34 [Warning] Aborted connection 34 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:53:53 39 [Warning] Aborted connection 39 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:57:23 41 [Warning] Aborted connection 41 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:57:37 43 [Warning] Aborted connection 43 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:57:50 45 [Warning] Aborted connection 45 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 20:58:55 48 [Warning] Aborted connection 48 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:02:44 50 [Warning] Aborted connection 50 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:03:24 52 [Warning] Aborted connection 52 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:09:07 53 [Warning] Aborted connection 53 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:29:33 55 [Warning] Aborted connection 55 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got timeout reading communication packets)
+2021-04-13 21:33:16 60 [Warning] Aborted connection 60 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:35:04 61 [Warning] Aborted connection 61 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:35:38 62 [Warning] Aborted connection 62 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:36:52 63 [Warning] Aborted connection 63 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:37:07 64 [Warning] Aborted connection 64 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:38:09 65 [Warning] Aborted connection 65 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:39:15 66 [Warning] Aborted connection 66 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:40:40 68 [Warning] Aborted connection 68 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:41:08 69 [Warning] Aborted connection 69 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:41:15 70 [Warning] Aborted connection 70 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:42:36 71 [Warning] Aborted connection 71 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:43:14 72 [Warning] Aborted connection 72 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:46:29 75 [Warning] Aborted connection 75 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:46:58 78 [Warning] Aborted connection 78 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-13 21:52:08 79 [Warning] Aborted connection 79 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:23:20 81 [Warning] Aborted connection 81 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:28:10 82 [Warning] Aborted connection 82 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:33:41 85 [Warning] Aborted connection 85 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:53:29 87 [Warning] Aborted connection 87 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:55:24 88 [Warning] Aborted connection 88 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:56:44 89 [Warning] Aborted connection 89 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:58:03 90 [Warning] Aborted connection 90 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:58:09 91 [Warning] Aborted connection 91 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:59:32 92 [Warning] Aborted connection 92 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:59:44 94 [Warning] Aborted connection 94 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  0:59:56 96 [Warning] Aborted connection 96 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:00:18 99 [Warning] Aborted connection 99 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:00:53 102 [Warning] Aborted connection 102 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:01:15 104 [Warning] Aborted connection 104 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:01:28 106 [Warning] Aborted connection 106 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:03:37 108 [Warning] Aborted connection 108 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:03:49 110 [Warning] Aborted connection 110 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:04:29 111 [Warning] Aborted connection 111 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:04:42 115 [Warning] Aborted connection 115 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:08:46 117 [Warning] Aborted connection 117 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:08:55 122 [Warning] Aborted connection 122 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:09:26 123 [Warning] Aborted connection 123 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:09:48 126 [Warning] Aborted connection 126 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:15:11 129 [Warning] Aborted connection 129 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:18:36 134 [Warning] Aborted connection 134 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:18:46 136 [Warning] Aborted connection 136 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:18:54 138 [Warning] Aborted connection 138 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:20:34 140 [Warning] Aborted connection 140 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:20:47 141 [Warning] Aborted connection 141 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:21:04 142 [Warning] Aborted connection 142 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:21:18 144 [Warning] Aborted connection 144 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:21:42 146 [Warning] Aborted connection 146 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:21:46 148 [Warning] Aborted connection 148 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:21:59 149 [Warning] Aborted connection 149 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:22:11 151 [Warning] Aborted connection 151 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:22:20 153 [Warning] Aborted connection 153 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:24:46 155 [Warning] Aborted connection 155 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:24:52 157 [Warning] Aborted connection 157 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:26:20 159 [Warning] Aborted connection 159 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:26:40 161 [Warning] Aborted connection 161 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:26:53 163 [Warning] Aborted connection 163 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:28:05 165 [Warning] Aborted connection 165 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:32:36 170 [Warning] Aborted connection 170 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  1:38:11 171 [Warning] Aborted connection 171 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14  4:14:44 189 [Warning] Aborted connection 189 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-14 21:53:38 0 [Note] InnoDB: Using Linux native AIO
+2021-04-14 21:53:38 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-14 21:53:38 0 [Note] InnoDB: Uses event mutexes
+2021-04-14 21:53:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-14 21:53:38 0 [Note] InnoDB: Number of pools: 1
+2021-04-14 21:53:38 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-14 21:53:38 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-14 21:53:38 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-14 21:53:38 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-14 21:53:38 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-14 21:53:38 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=807597
+2021-04-14 21:53:39 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000017', position 11649
+2021-04-14 21:53:39 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-14 21:53:39 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-14 21:53:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-14 21:53:39 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-14 21:53:39 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-14 21:53:39 0 [Note] InnoDB: 10.4.12 started; log sequence number 807606; transaction id 1250
+2021-04-14 21:53:39 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-14 21:53:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-14 21:53:39 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2021-04-14 21:53:39 0 [Note] Starting crash recovery...
+2021-04-14 21:53:39 0 [Note] Crash recovery finished.
+2021-04-14 21:53:39 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-14 21:53:39 0 [Note] InnoDB: Buffer pool(s) load completed at 210414 21:53:39
+2021-04-14 21:53:39 0 [Note] Reading of all Master_info entries succeeded
+2021-04-14 21:53:39 0 [Note] Added new Master_info '' to hash table
+2021-04-14 21:53:39 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-14 21:54:43 9 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2021-04-14 22:00:25 9 [Warning] Aborted connection 9 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-21 21:16:02 0 [Note] InnoDB: Using Linux native AIO
+2021-04-21 21:16:02 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-21 21:16:02 0 [Note] InnoDB: Uses event mutexes
+2021-04-21 21:16:02 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-21 21:16:02 0 [Note] InnoDB: Number of pools: 1
+2021-04-21 21:16:02 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-21 21:16:02 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-21 21:16:02 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-21 21:16:02 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-21 21:16:02 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-21 21:16:03 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=813718
+2021-04-21 21:16:03 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000018', position 1943
+2021-04-21 21:16:03 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-21 21:16:03 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-21 21:16:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-21 21:16:03 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-21 21:16:03 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-21 21:16:03 0 [Note] InnoDB: Waiting for purge to start
+2021-04-21 21:16:03 0 [Note] InnoDB: 10.4.12 started; log sequence number 813727; transaction id 1280
+2021-04-21 21:16:03 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-21 21:16:03 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-21 21:16:03 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2021-04-21 21:16:03 0 [Note] Starting crash recovery...
+2021-04-21 21:16:03 0 [Note] Crash recovery finished.
+2021-04-21 21:16:03 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-21 21:16:03 0 [Note] InnoDB: Buffer pool(s) load completed at 210421 21:16:03
+2021-04-21 21:16:03 0 [Note] Reading of all Master_info entries succeeded
+2021-04-21 21:16:03 0 [Note] Added new Master_info '' to hash table
+2021-04-21 21:16:03 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-21 21:17:25 9 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-21 21:18:22 10 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-21 21:18:27 11 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2021-04-21 21:23:45 9 [Warning] Aborted connection 9 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-21 23:56:56 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-04-21 23:56:56 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-04-21 23:56:56 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-21 23:56:56 0 [Note] InnoDB: Starting shutdown...
+2021-04-21 23:56:56 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-04-21 23:56:56 0 [Note] InnoDB: Buffer pool(s) dump completed at 210421 23:56:56
+2021-04-21 23:56:57 0 [Note] InnoDB: Shutdown completed; log sequence number 813745; transaction id 1284
+2021-04-21 23:56:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-21 23:56:57 0 [Note] mysqld: Shutdown complete
+
+2021-04-28 11:07:54 0 [Note] InnoDB: Using Linux native AIO
+2021-04-28 11:07:54 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-28 11:07:54 0 [Note] InnoDB: Uses event mutexes
+2021-04-28 11:07:54 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-28 11:07:54 0 [Note] InnoDB: Number of pools: 1
+2021-04-28 11:07:54 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-28 11:07:54 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-28 11:07:54 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-28 11:07:54 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-28 11:07:54 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-28 11:07:55 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-28 11:07:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-28 11:07:55 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-28 11:07:55 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-28 11:07:55 0 [Note] InnoDB: 10.4.12 started; log sequence number 813745; transaction id 1280
+2021-04-28 11:07:55 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-28 11:07:55 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-28 11:07:55 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-28 11:07:55 0 [Note] InnoDB: Buffer pool(s) load completed at 210428 11:07:55
+2021-04-28 11:07:55 0 [Note] Reading of all Master_info entries succeeded
+2021-04-28 11:07:55 0 [Note] Added new Master_info '' to hash table
+2021-04-28 11:07:55 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-28 11:08:40 9 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-28 11:10:35 10 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-28 11:15:41 10 [Warning] Aborted connection 10 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-28 12:02:43 11 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-28 12:04:03 12 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-28 12:16:59 13 [Warning] IP address '172.18.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-28 12:17:27 14 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2021-04-28 12:26:59 13 [Warning] Aborted connection 13 to db: 'myfirstdb' user: 'myfirstuser' host: '172.18.0.1' (Got timeout reading communication packets)
+2021-04-28 15:04:58 0 [Note] InnoDB: Using Linux native AIO
+2021-04-28 15:04:58 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-28 15:04:58 0 [Note] InnoDB: Uses event mutexes
+2021-04-28 15:04:58 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-28 15:04:58 0 [Note] InnoDB: Number of pools: 1
+2021-04-28 15:04:58 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-28 15:04:58 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-28 15:04:58 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-28 15:04:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-28 15:04:58 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-28 15:04:58 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=826519
+2021-04-28 15:04:58 0 [Note] InnoDB: Last binlog file '/var/log/mysql/mysql-bin.000020', position 5923
+2021-04-28 15:04:58 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-28 15:04:58 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-28 15:04:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-28 15:04:58 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-28 15:04:58 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-28 15:04:58 0 [Note] InnoDB: Waiting for purge to start
+2021-04-28 15:04:58 0 [Note] InnoDB: 10.4.12 started; log sequence number 826528; transaction id 1341
+2021-04-28 15:04:58 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-28 15:04:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-28 15:04:58 0 [Note] Recovering after a crash using /var/log/mysql/mysql-bin
+2021-04-28 15:04:58 0 [Note] Starting crash recovery...
+2021-04-28 15:04:58 0 [Note] Crash recovery finished.
+2021-04-28 15:04:58 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-28 15:04:58 0 [Note] InnoDB: Buffer pool(s) load completed at 210428 15:04:58
+2021-04-28 15:04:58 0 [Note] Reading of all Master_info entries succeeded
+2021-04-28 15:04:58 0 [Note] Added new Master_info '' to hash table
+2021-04-28 15:04:58 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-28 15:12:45 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-04-28 15:12:45 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-04-28 15:12:45 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-28 15:12:45 0 [Note] InnoDB: Starting shutdown...
+2021-04-28 15:12:45 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-04-28 15:12:45 0 [Note] InnoDB: Buffer pool(s) dump completed at 210428 15:12:45
+2021-04-28 15:12:47 0 [Note] InnoDB: Shutdown completed; log sequence number 826546; transaction id 1342
+2021-04-28 15:12:47 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-28 15:12:47 0 [Note] mysqld: Shutdown complete
+
+2021-04-28 15:13:05 0 [Note] InnoDB: Using Linux native AIO
+2021-04-28 15:13:05 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-28 15:13:05 0 [Note] InnoDB: Uses event mutexes
+2021-04-28 15:13:05 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-28 15:13:05 0 [Note] InnoDB: Number of pools: 1
+2021-04-28 15:13:05 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-28 15:13:05 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-28 15:13:05 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-28 15:13:05 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-28 15:13:05 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-28 15:13:05 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-28 15:13:05 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-28 15:13:05 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-28 15:13:05 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-28 15:13:05 0 [Note] InnoDB: Waiting for purge to start
+2021-04-28 15:13:05 0 [Note] InnoDB: 10.4.12 started; log sequence number 826546; transaction id 1341
+2021-04-28 15:13:05 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-28 15:13:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-28 15:13:05 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-28 15:13:05 0 [Note] InnoDB: Buffer pool(s) load completed at 210428 15:13:05
+2021-04-28 15:13:05 0 [Note] Reading of all Master_info entries succeeded
+2021-04-28 15:13:05 0 [Note] Added new Master_info '' to hash table
+2021-04-28 15:13:05 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-28 15:14:57 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-04-28 15:14:57 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-04-28 15:14:57 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-28 15:14:57 0 [Note] InnoDB: Starting shutdown...
+2021-04-28 15:14:57 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-04-28 15:14:57 0 [Note] InnoDB: Buffer pool(s) dump completed at 210428 15:14:57
+2021-04-28 15:14:58 0 [Note] InnoDB: Shutdown completed; log sequence number 826555; transaction id 1342
+2021-04-28 15:14:58 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-28 15:14:58 0 [Note] mysqld: Shutdown complete
+
+2021-04-28 15:15:16 0 [Note] InnoDB: Using Linux native AIO
+2021-04-28 15:15:16 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-28 15:15:16 0 [Note] InnoDB: Uses event mutexes
+2021-04-28 15:15:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-28 15:15:16 0 [Note] InnoDB: Number of pools: 1
+2021-04-28 15:15:16 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-28 15:15:16 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-28 15:15:16 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-28 15:15:16 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-28 15:15:16 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-28 15:15:16 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-28 15:15:16 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-28 15:15:16 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-28 15:15:16 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-28 15:15:16 0 [Note] InnoDB: Waiting for purge to start
+2021-04-28 15:15:16 0 [Note] InnoDB: 10.4.12 started; log sequence number 826555; transaction id 1341
+2021-04-28 15:15:16 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-28 15:15:16 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-28 15:15:16 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-28 15:15:16 0 [Note] InnoDB: Buffer pool(s) load completed at 210428 15:15:16
+2021-04-28 15:15:16 0 [Note] Reading of all Master_info entries succeeded
+2021-04-28 15:15:16 0 [Note] Added new Master_info '' to hash table
+2021-04-28 15:15:16 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-28 15:15:52 9 [Warning] IP address '172.24.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-28 15:16:03 10 [Warning] IP address '172.24.0.1' could not be resolved: Name or service not known
+2021-04-28 15:33:17 11 [Warning] Aborted connection 11 to db: 'unconnected' user: 'unauthenticated' host: '172.24.0.1' (This connection closed normally without authentication)
+2021-04-28 15:33:17 12 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:18 13 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:18 14 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:19 15 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:20 16 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:20 17 [Warning] Access denied for user 'admin'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:21 18 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:21 19 [Warning] Access denied for user 'admin'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:22 20 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:22 21 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:23 22 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:23 23 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:24 24 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:25 25 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:25 26 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:26 27 [Warning] Access denied for user 'admin'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:26 28 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:27 29 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:27 30 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:28 31 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:28 32 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:29 33 [Warning] Access denied for user 'admin'@'172.24.0.1' (using password: NO)
+2021-04-28 15:33:29 34 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:30 35 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:31 36 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:31 37 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:32 38 [Warning] Access denied for user 'root'@'172.24.0.1' (using password: YES)
+2021-04-28 15:33:32 39 [Warning] Access denied for user 'admin'@'172.24.0.1' (using password: YES)
+2021-04-28 15:58:05 46 [Warning] Aborted connection 46 to db: 'unconnected' user: 'unauthenticated' host: '172.24.0.1' (This connection closed normally without authentication)
+2021-04-28 15:59:56 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-04-28 15:59:56 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-04-28 15:59:56 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-28 15:59:56 0 [Note] InnoDB: Starting shutdown...
+2021-04-28 15:59:56 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-04-28 15:59:56 0 [Note] InnoDB: Buffer pool(s) dump completed at 210428 15:59:56
+2021-04-28 15:59:57 0 [Note] InnoDB: Shutdown completed; log sequence number 827606; transaction id 1366
+2021-04-28 15:59:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-28 15:59:57 0 [Note] mysqld: Shutdown complete
+
+2021-04-28 16:08:50 0 [Note] InnoDB: Using Linux native AIO
+2021-04-28 16:08:50 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-04-28 16:08:50 0 [Note] InnoDB: Uses event mutexes
+2021-04-28 16:08:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-28 16:08:50 0 [Note] InnoDB: Number of pools: 1
+2021-04-28 16:08:50 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2021-04-28 16:08:50 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-28 16:08:50 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2021-04-28 16:08:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-28 16:08:50 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-28 16:08:50 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2021-04-28 16:08:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-28 16:08:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-28 16:08:50 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-28 16:08:50 0 [Note] InnoDB: Waiting for purge to start
+2021-04-28 16:08:50 0 [Note] InnoDB: 10.4.12 started; log sequence number 827606; transaction id 1368
+2021-04-28 16:08:50 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-28 16:08:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-28 16:08:51 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-04-28 16:08:51 0 [Note] InnoDB: Buffer pool(s) load completed at 210428 16:08:51
+2021-04-28 16:08:51 0 [Note] Reading of all Master_info entries succeeded
+2021-04-28 16:08:51 0 [Note] Added new Master_info '' to hash table
+2021-04-28 16:08:51 0 [Note] mysqld: ready for connections.
+Version: '10.4.12-MariaDB-1:10.4.12+maria~bionic-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-28 16:09:12 9 [Warning] IP address '172.25.0.1' could not be resolved: Temporary failure in name resolution
+2021-04-28 16:09:15 10 [Warning] IP address '172.25.0.1' could not be resolved: Name or service not known
+2021-04-28 16:11:18 13 [Warning] Aborted connection 13 to db: 'unconnected' user: 'unauthenticated' host: '172.25.0.1' (This connection closed normally without authentication)
+2021-04-28 16:15:32 11 [Warning] Aborted connection 11 to db: 'myfirstdb' user: 'myfirstuser' host: '172.25.0.1' (Got an error reading communication packets)
+2021-04-28 16:22:44 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-04-28 16:22:44 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-04-28 16:22:44 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-28 16:22:44 0 [Note] InnoDB: Starting shutdown...
+2021-04-28 16:22:44 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-04-28 16:22:44 0 [Note] InnoDB: Buffer pool(s) dump completed at 210428 16:22:44
+2021-04-28 16:22:46 0 [Note] InnoDB: Shutdown completed; log sequence number 827615; transaction id 1387
+2021-04-28 16:22:46 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-28 16:22:46 0 [Note] mysqld: Shutdown complete
+
